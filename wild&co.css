@@ -51,7 +51,26 @@ h3{
 .sizelogog²m{
     width: 100px;
 }
-
+.sizelogoMW{
+    width : 120px;
+    height : 90px;
+}
+.sizelogomjms{
+    width: 80px;
+    height: 80px;
+}
+.sizelogoOR{
+    width: 80px;
+    height: 80px;
+}
+.sizelogoS{
+    width: 140px;
+    height: 80px;
+}
+.sizelogotvcom{
+    width: 140px;
+    height: 80px;
+}
 .lienlogog²m{
     width: 100px;
     transform: translateX(-50%) translateY(-50%);
