@@ -3,6 +3,8 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+
 a{
   text-decoration: none;
   color: rgb(80, 79, 79);
@@ -11,6 +13,7 @@ body{
     width: 100%;
     background-color: rgb(240, 240, 240);
     margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 h2{
