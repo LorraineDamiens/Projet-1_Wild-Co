@@ -1,1 +1,99 @@
-qhsgdqgfjhsq
+body {
+    display: block;
+    width: 100%;
+}
+
+h2 {
+   font-size: 2em; 
+   margin-top: 100px;
+   margin-left: 20px;
+   }
+
+
+.formblock {
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+ input, 
+ textarea {
+    display: table-row;
+    margin-bottom: 10px;
+    width: 60%;
+    height: 35px;
+    border: solid 1px rgb(105, 105, 105);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+textarea {
+    height: 120px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+
+.map {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.self-center {
+    align-self: center
+}
+
+@media screen and (min-width: 768px) {
+
+    h2 {
+        display: flex;
+        font-size: 2em; 
+        margin-top: 100px;
+        justify-content: center;
+        margin-left: -40px;
+    }
+
+    .container{
+        display: flex;
+        flex-flow: row nowrap;
+        margin-left: 30px;
+        
+        
+    }
+
+    .contactblock{
+        width: 50%;
+    }
+
+    .carteblock{
+        width: 50%;
+    }
+
+    .formblock {
+        margin-top: 50px;
+    }
+
+    .map {
+        margin-top: 75px;
+        margin-right: 50px;
+        
+    }
+
+}

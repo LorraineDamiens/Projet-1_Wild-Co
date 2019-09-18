@@ -4,14 +4,36 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Wild & Co : Contact</title>
-            <link rel="stylesheet" href="wild&co.css">
+            <link rel="stylesheet" href="contact.css">
         </head>
 
         <body>
             <header>
 
             </header>
-
+            <div class="container">
+                <div class="contactblock">
+                    <h2>Contactez-nous</h2>
+                    <form class="flex-col" action="/page-de-contact" method="post">
+                        <div class="formblock">
+                            <input type="text" placeholder=" Nom Prénom:" id="name" name="user_name">
+                        </div>
+                        <div class="formblock">
+                            <input type="email" placeholder="E-mail:" id="mail" name="user_mail">
+                        </div>
+                        <div class="formblock">
+                            <textarea placeholder="Votre message ici:" id="msg" name="user_message"></textarea>
+                        </div>
+                        <button class="self-center">Envoyer le message!</button>
+                    </form>
+                </div>
+                <div class="carteblock">
+                    <h2>Carte des entreprises</h2>
+                    <div class= "map">
+                        <iframe src="https://www.google.com/maps/d/embed?mid=1lJRLeg9bmICLYTTcDPLE9r0FmDaVuS5p" width="640" height="480"></iframe>
+                    </div>
+                </div>
+            </div>
             <footer>
                 
             </footer>
