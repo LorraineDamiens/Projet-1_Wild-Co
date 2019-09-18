@@ -32,6 +32,12 @@ section{
     margin-top: 40px;
 }
 
+.lienlogo img:hover{
+    width: 210px;
+    transition: 0.3s;
+    margin-left: -3px;
+}
+
 .sizelogo{
     width: 200px;
 }
@@ -51,26 +57,7 @@ h3{
 .sizelogog²m{
     width: 100px;
 }
-.sizelogoMW{
-    width : 120px;
-    height : 90px;
-}
-.sizelogomjms{
-    width: 80px;
-    height: 80px;
-}
-.sizelogoOR{
-    width: 80px;
-    height: 80px;
-}
-.sizelogoS{
-    width: 140px;
-    height: 80px;
-}
-.sizelogotvcom{
-    width: 140px;
-    height: 80px;
-}
+
 .lienlogog²m{
     width: 100px;
     transform: translateX(-50%) translateY(-50%);
@@ -78,4 +65,119 @@ h3{
     position: absolute;
     text-align: center;
     margin-top: 40px;
+}
+
+.lienlogog²m img:hover{
+    width: 110px;
+    transition: 0.3s;
+    margin-left: -3px;
+}
+
+.lienlogoMW{
+    width:120px;
+    height:90px;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.lienlogoMW img:hover{
+    width:130px;
+    height: 100px;
+    transition: 0.3s;
+    margin-left: -3px;
+}
+
+.sizelogoMW{
+    width : 120px;
+    height : 90px;
+}
+
+.sizelogomjms{
+    width: 80px;
+    height: 80px;
+}
+
+.lienlogomjms{
+    width: 80px;
+    height: 80px;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.lienlogomjms img:hover{
+    width: 90px;
+    height: 90px;
+    transition: 0.3s;
+    margin-left: -3px;
+}
+
+.sizelogoOR{
+    width: 80px;
+    height: 80px;
+}
+
+.lienlogoOR{
+    width: 80px;
+    height: 80px;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.lienlogoOR img:hover{
+    width: 90px;
+    height: 90px;
+    transition: 0.3s;
+    margin-left: -3px;
+}
+
+.sizelogoS{
+    width: 140px;
+    height: 80px;
+}
+
+.lienlogoS{
+    width: 140px;
+    height: 80px;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.lienlogoS img:hover{
+    width: 150px;
+    height: 90px;
+    transition: 0.3s;
+    margin-left: -3px;
+}
+
+.sizelogotvcom{
+    width: 100px;
+    height: 80px;
+}
+
+.lienlogotvcom{
+    width: 100px;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.lienlogotvcom img:hover{
+    width: 110px;
+    height: 90px;
+    transition: 0.3s;
+    margin-left: -3px;
 }
