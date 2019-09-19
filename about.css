@@ -6,3 +6,12 @@
 .title1{
     background: rgb(226,226,226);
 }
+
+body {
+    margin: 0;
+}
+
+p a{
+    text-decoration: none;
+    color: black;
+}
