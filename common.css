@@ -7,47 +7,59 @@ body{
     width: 100vw;
     font-family: 'Raleway', sans-serif;
 }
-
-.header{
-    background-color: white;
-    display: flex;
-    color:  #F76C6C;
-    font-size: 1.5em;
+/* header */
+.header {
+    width: 100%;
+    display:flex;
     flex-direction: column;
-    text-align:center;
 }
-
 .header_div{
     display:flex;
-    flex-direction: row;
-    width: 100vw;
-    height: 144px;
+    height: 25%;
 }
 
-.logoWCSHeader{
-        height : 4em;
-        width: 10em;
-        margin-left: 1em;
-        margin-top: 1em;
-        margin-bottom: 1em;
+/* block header */
+
+.div_logoWCS {
+    display:none;
 }
 
 .titreheader{
-    width: 50%;
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
 }
+/*mis en forme header*/
 
 .wild_Co{
-    top: 50px;
-    font-weight: bold;
-    color:black;
+    font-size : 400%;
     font-family: 'Manjari', sans-serif;
-    text-shadow : 1px 1px; 
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    color: #e0dfdc;
+    background-color: #333;
+    letter-spacing: .1em;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212, 
+      0 22px 30px rgba(0, 0, 0, 0.9);
+  }
     
 }
-
 .navflex{
     margin: 0;
     display:flex;
@@ -137,6 +149,23 @@ img{
     width: 100%;
     height: 55%;
 }
+.div_logoWCS {
+    display:block;
+    width : 30%;
+    text-align:center;
+}
+.titreheader{
+    width : 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+.logoWCSHeader{
+    width: 80%;
+    padding : 5% 5% 5% 5%;
+}
+
 
 /* about.html */
 
