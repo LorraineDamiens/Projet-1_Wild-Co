@@ -1,0 +1,12 @@
+*,*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+.title1{
+    background: rgb(226,226,226);
+}
+
+body {
+    margin: 0;
+}

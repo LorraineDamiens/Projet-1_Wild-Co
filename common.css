@@ -48,34 +48,45 @@ body{
     
 }
 
-.nav{
-    margin-top: 15px;
+.navflex{
+    margin: 0;
     display:flex;
-    justify-content: space-between;
-    
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
 }
 
-.nav_annuaire, .nav_contact{
-    border: solid 1px #D3D3D3;
-    border-radius: 10px;   
-    margin-left :3%;
-    margin-right : 3%;
-    margin-bottom: 5%;
+.navbloc{
+    width: 50%;
 }
 
-.nav_annuaire a:active{
-    box-shadow: 0 0 9px 4px rgba(179, 111, 111, 0.7);
-    background-color: rgb(240, 184, 184);
-
+.title1, .title2{
+    background: rgb(226, 226, 226);
+    border: solid 1px rgb(192, 191, 191);
+    box-shadow: 0 10px 9px -3px rgba(220, 220, 220, 1);
+    width: 100%;
+    height: 70px;
+    margin: 0 0 20px 0;
+    color: rgb(77, 77, 77);
+}
+.title1{
+    padding: 5px;
+    background: white;
 }
 
-.nav_contact a:active{
-    box-shadow: 0 0 9px 4px rgba(179, 111, 111, 0.7);
-    background-color: rgb(240, 184, 184);
+.title2a h2:hover{
+    background: white;
 }
 
-.title {
-    margin:5px 5px 5px 5px;
+.title1a,
+.title2a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+
+.title2{
+    padding-top: 20px;
 }
 
 .picture{
@@ -107,6 +118,7 @@ body{
 
 .zone1 a {
     text-decoration: none;
+    color: dimgrey;
 }
 img{
     width:5em;
@@ -119,6 +131,11 @@ img{
     margin-right: 30px;
     
 }
+
+.logoWCS:hover {
+    transform: scale(1.2);
+
+}  
 @media only screen and (min-width: 768px)
 {
 .picture{

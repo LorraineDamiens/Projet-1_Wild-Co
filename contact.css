@@ -44,9 +44,6 @@ textarea {
 .button {
     display: flex;
     align-items: center;
-    
-    
-
 }
 
 .map {
@@ -67,6 +64,14 @@ textarea {
 
 .self-center {
     align-self: center
+}
+
+.title1{
+    background: rgb(226,226,226);
+}
+
+.title2{
+    background: white;
 }
 
 @media screen and (min-width: 768px) {
