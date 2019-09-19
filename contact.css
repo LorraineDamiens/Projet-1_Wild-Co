@@ -11,7 +11,7 @@ body {
     background-color: rgb(240, 240, 240);
 }
 
-h2 {
+.underline {
    text-decoration : underline; 
    font-size: 2em; 
    margin-top: 100px;
@@ -74,9 +74,22 @@ textarea {
     background: white;
 }
 
+.title1a h2:hover{
+    background: white;
+    font-size: 26px;
+    box-shadow: inset 0 0 10px rgba(220, 220, 220, 1);
+    transition: 0.3s;
+}
+
+.title2a h2:hover{
+    background: white;
+    font-size: 24px;
+    box-shadow: 0 10px 9px -3px rgba(220, 220, 220, 1);
+}
+
 @media screen and (min-width: 768px) {
 
-    h2 {
+    .underline{
         display: flex;
         font-size: 2em; 
         margin-top: 100px;
@@ -110,4 +123,13 @@ textarea {
         
     }
 
+}
+
+.spanh2{
+    display: none;
+}
+@media only screen and (min-width: 900px){
+    .spanh2{
+        display: block;
+    }
 }
