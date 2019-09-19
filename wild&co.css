@@ -33,6 +33,7 @@ section{
     border-radius: 10px;
     box-shadow: 0 0 9px 4px rgba(220, 220, 220, 0.7);
     margin-top: 15px;
+    padding: 20px;
 }
 
 .lienlogo{
@@ -80,6 +81,7 @@ section{
     height:80px;
     align-self: center;
     margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 .lienlogoMW img:hover{

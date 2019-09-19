@@ -21,10 +21,15 @@ body{
     display:flex;
     flex-direction: row;
     width: 100vw;
+    height: 144px;
 }
 
-.logoWCS{
-    width: 50%;
+.logoWCSHeader{
+        height : 4em;
+        width: 10em;
+        margin-left: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
 }
 
 .titreheader{
@@ -32,14 +37,15 @@ body{
 }
 
 .wild_Co{
-    width: 65%;
+    top: 50px;
     font-weight: bold;
-    display:flex;
-    justify-content:center;   
-    align-items:center;
     color:black;
     font-family: 'Manjari', sans-serif;
     text-shadow : 1px 1px; 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
 }
 
 .nav{
@@ -81,44 +87,27 @@ body{
 
 #footer{
     display: flex;
-    height:90px;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
     font-size: 1em;
-    background: rgb(68, 67, 67);  
-    margin-top: 50vh;
-    margin-bottom: 0;
+    background: rgb(43, 41, 41);
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    
 }
-
-.zone1{
+.zone1 {
     display: flex;
     flex-direction: column;
-    width: 20%;
-  	margin-left: 80px;
-    font-size: 1em;
-    margin-bottom : 0;
-}
-.zone1 a{
-    margin-top : 15px;
-    text-decoration:none;
-    color:rgb(14, 143, 14);
+    margin-left: 30px;
+    font-size: 20px;
+
 }
 
-.zone2{
-    font-size: 1em;
-    padding: 15px;
-  	position: relative;
-    margin-left: 60%;
-}
-
-.zone2 a{
-    margin-top:15px;
+.zone1 a {
     text-decoration: none;
-    color:black;
 }
-
-.zone2:hover{
-    background: grey;
-}
-
 img{
     width:5em;
     height:7em;
@@ -127,6 +116,8 @@ img{
 .logoWCS{
     height : 4em;
     width: 10em;
+    margin-right: 30px;
+    
 }
 @media only screen and (min-width: 768px)
 {
@@ -140,8 +131,11 @@ img{
 
 .aboutbloc,
 .sourcesbloc {
-    border: solid 1px #D3D3D3;
-    border-radius: 10px;
-    box-shadow: 0 0 9px 4px rgba(220, 220, 220, 0.7);
-    margin-top: 15px;
+    
+        border: solid 1px #D3D3D3;
+        border-radius: 10px;
+        box-shadow: 0 0 9px 4px rgba(220, 220, 220, 0.7);
+        margin-top: 15px;
+        padding: 20px;
+    }
 }
