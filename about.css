@@ -22,6 +22,10 @@ body{
     background: rgb(226,226,226);
 }
 
+p a{
+    text-decoration: none;
+    color: black;
+
 .title1a h2:hover{
     background: white;
     font-size: 26px;
@@ -37,4 +41,7 @@ body{
     .spanh2{
         display: block;
     }
+
+
+
 }
