@@ -15,6 +15,10 @@ body{
     padding: 20px;
 }
 
+.sourcesbloc{
+    margin-bottom: 30px;
+}
+
 .aboutbloc{
     margin-top: 100px;
 }
@@ -24,8 +28,17 @@ body{
 
 p a{
     text-decoration: none;
-    color: black;
+    color:blue;
+    font-size: 16px;
 }
+
+p a:hover{
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
 .title1a h2:hover{
     background: white;
     font-size: 26px;
