@@ -134,6 +134,12 @@ body{
     text-decoration: none;
     color: dimgrey;
 }
+
+.zone1 a:hover{
+    color: rgb(150,150,150);
+    font-size: 22px;
+    transition: 0.3s;
+}
 img{
     width:5em;
     height:7em;
@@ -148,35 +154,42 @@ img{
 
 .spanh2{
     display: none;
-
 }  
-@media only screen and (min-width: 768px)
-{
+
+.logoWCS:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+    }
+@media only screen and (min-width: 768px){
 .picture{
     display:block;
     width: 100%;
     height: 55%;
     }
-}
 .div_logoWCS {
     display:block;
     width : 30%;
     text-align:center;
-}
+    background: #333;
+    }
 .titreheader{
     width : 70%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #333;
-}
+    }
 .logoWCSHeader{
-    width: 80%;
-    padding : 5% 5% 5% 5%;
-}
+    width: 15em;
+    height: 8em;
+    padding : 10% 5% 5% 5%;
+    }
 .logoWCS:hover {
     transform: scale(1.2);
+    transition: 0.3s;
+    }
 }
+
 
 @media only screen and (min-width: 900px){
     .spanh2{
